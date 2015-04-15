@@ -5,7 +5,7 @@ var hasProp = {}.hasOwnProperty;
 	sets up the constructor function.
 */
 var createClass = function(body, _super) {
-	var o = hasProp.call(body, 'constructor') ? body.constructor : (_super ? function() {_super.prototype.constructor.apply(this, arguments);} : function() {});
+	var o = hasProp.call(body, 'constructor') ? body.constructor : (_super ? function() {_super.apply(this, arguments);} : function() {});
 	return o;
 };
 

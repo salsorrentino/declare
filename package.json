@@ -1,10 +1,13 @@
 {
-  "name": "declare",
-  "version": "0.0.1",
+  "name": "x-declare",
+  "version": "0.0.3",
   "description": "A simple OO script. Makes declaring/extending classes easy ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig":{
+    "registry":"http://npm.xlane.com:8333/"
   },
   "repository": {
     "type": "git",
@@ -15,7 +18,7 @@
     "Oriented",
     "OO"
   ],
-  "author": "Salvatore Sorrentino",
+  "author": "Salvatore Sorrentino <sal@xlane.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/salsorrentino/declare/issues"
