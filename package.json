@@ -1,13 +1,13 @@
 {
   "name": "x-declare",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A simple OO script. Makes declaring/extending classes easy ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
-  "publishConfig":{
-    "registry":"http://npm.xlane.com:8333/"
+  "publishConfig": {
+    "registry": "http://npm.xlane.com:8333/"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/salsorrentino/declare/issues"
   },
-  "homepage": "https://github.com/salsorrentino/declare"
+  "homepage": "https://github.com/salsorrentino/declare",
+  "devDependencies": {
+    "jasmine": "^2.2.1"
+  }
 }
